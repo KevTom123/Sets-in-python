@@ -1,0 +1,3 @@
+*Sets are represented by Curly brackets
+*You can change a list to a set by using set()
+*When a set gets printed there will be no duplicates remaining in the set.
