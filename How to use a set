@@ -1,0 +1,25 @@
+1)# Create a set
+
+set1 = {"pop", "rock", "soul", "hard rock", "rock", "R&B", "rock", "disco"}
+set1
+2)# Convert list to set
+
+album_list = [ "Michael Jackson", "Thriller", 1982, "00:42:19", \
+              "Pop, Rock, R&B", 46.0, 65, "30-Nov-82", None, 10.0]
+album_set = set(album_list)             
+album_set
+# Convert list to set
+
+music_genres = set(["pop", "pop", "rock", "folk rock", "hard rock", "soul", \
+                    "progressive rock", "soft rock", "R&B", "disco"])
+music_genres
+3)# Add element to set
+A = set(["Thriller", "Back in Black", "AC/DC"])
+A.add("NSYNC")
+4)# Remove the element from set
+
+A.remove("NSYNC")
+A
+5)# Verify if the element is in the set
+
+"AC/DC" in A
